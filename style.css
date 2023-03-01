@@ -132,7 +132,7 @@ h5{
   font-size: 20px;
 }
 
-.myProjects h3 {
+.myProjects__title h3 {
   text-align: center;
   font-weight: 600;
   font-size: 40px;
@@ -196,4 +196,20 @@ h5{
 }
 .test .btn {
   width: 202px;
+}
+.contact__me {
+  text-align: center;
+}
+footer {
+  margin-top: 150px;
+}
+footer p::before{
+  content: 'C';
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  text-align: center;
+  transform: translate(-150%, 100%);
 }
